@@ -122,9 +122,7 @@ fun LemonsToLemonade(modifier: Modifier = Modifier) {
                         if (result > 4) {
                             result = 1
                         }
-
                     }
-
                 }
         )
 
@@ -135,10 +133,7 @@ fun LemonsToLemonade(modifier: Modifier = Modifier) {
             text = imageText
         )
 
-
-
     }
-
 
 }
 
@@ -151,5 +146,4 @@ fun LemonadeApp() {
             .fillMaxSize()
             .wrapContentSize(Alignment.TopCenter)
     )
-
 }
